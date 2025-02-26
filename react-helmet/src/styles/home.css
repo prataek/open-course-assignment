@@ -1,0 +1,48 @@
+.hero-section {
+   text-align: center;
+}
+
+h1, h2 {
+   padding: 0;
+   margin: 0;
+}
+
+.home-title {
+   font-size: 80px;
+   margin-top: 50px;
+}
+
+.home-surf {
+   font-family: "Cormorant";
+   padding: 12px;
+   width: 220px;
+   height: 55px;
+   font-size: 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   box-shadow: 0 5px 15px rgba(70, 74, 80, 0.3);
+}
+
+.home-desc {
+   padding-bottom: 20px;
+}
+
+h1 {
+   padding-top: 70px;
+}
+
+#h2 {
+   font-family: "Allura";
+   font-size: 50px;
+   margin: 0;
+   padding: 20px;
+}
+
+.home-div {
+   overflow-x: hidden;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: calc(100vh - 70px);
+   width: 100vw;
+}

@@ -1,0 +1,57 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-family: "Cormorant";
+   font-size: 50px;
+}
+
+.course-image {
+   height: 400px;
+   width: 40%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+ 
+.about-section {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+}
+
+h1 {
+   padding: 0;
+}
+
+.about-hero {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 30%;
+   padding-right: 60px;
+   align-items: left;
+}
+
+.about-button {
+   width: 50%;
+   font-family: "Cormorant";
+   padding: 12px;
+   margin-top: 30px;
+   height: 55px;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   box-shadow: 0 5px 15px rgba(70, 74, 80, 0.3);
+}
+
+.about-info {
+   font-family: "Roboto";
+   letter-spacing: 1px;
+   font-weight: 300;
+}
